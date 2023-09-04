@@ -18,7 +18,7 @@ function makeRequest() {
     .then(function(response) {
       console.log("\n" + response.data + "\n");
       // İstek tamamlandıktan sonra tekrar isteği başlatmak için makeRequest'i çağırıyoruz
-      setTimeout(makeRequest, 4000);
+      setTimeout(makeRequest, 5000);
     })
     .catch(function(error) {
       console.log("HATA -BAŞLANGIÇ");
