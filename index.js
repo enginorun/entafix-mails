@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 function makeRequest() {
   var config = {
     method: 'GET',
-    url: 'https://ff29-95-70-128-52.ngrok-free.app/xmlapp/includes/php/bring-products.php'
+    url: 'https://7f49-95-70-128-52.ngrok-free.app/xmlapp/includes/php/bring-products.php'
   };
 
   axios(config)
