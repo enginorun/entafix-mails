@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 function makeRequest() {
   var config = {
     method: 'GET',
-    url: 'https://entafix.com/custom-xml-feeds/includes/php/bring-products.php'
+    url: 'https://entafix.com/custom-xml-feeds/includes/php/servers/server-1.php'
   };
 
   axios(config)
