@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 function makeRequest() {
   var config = {
     method: 'GET',
-    url: 'https://802a-95-70-128-173.ngrok-free.app/shopify-apps/bpe/includes/php/price-editor.php'
+    url: 'https://4fe8-95-70-128-173.ngrok-free.app/shopify-apps/bpe/includes/php/price-editor.php'
   };
 
   axios(config)
