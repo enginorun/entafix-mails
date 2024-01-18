@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 function makeRequest() {
   var config = {
     method: 'GET',
-    url: 'https://entafix.com/bulk-price-editor/includes/php/price-editor.php'
+    url: 'https://0008-95-70-129-184.ngrok-free.app/shopify-apps/product-price-history/includes/php/sync-products.php'
   };
 
   axios(config)
