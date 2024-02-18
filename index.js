@@ -11,14 +11,14 @@ const server = http.createServer((req, res) => {
 function makeRequest() {
   var config = {
     method: 'GET',
-    url: 'https://3fe8-95-70-130-37.ngrok-free.app/shopify-apps/product-price-history/includes/php/sync-products.php'
+    url: 'https://entafix.com/product-price-history/includes/php/sync-products.php'
   };
 
   axios(config)
     .then(function(response) {
       console.log("\n" + response.data + "\n");
       // İstek tamamlandıktan sonra tekrar isteği başlatmak için makeRequest'i çağırıyoruz
-      setTimeout(makeRequest, 3000);
+      setTimeout(makeRequest, 5000);
     })
     .catch(function(error) {
       console.log("HATA -BAŞLANGIÇ");
